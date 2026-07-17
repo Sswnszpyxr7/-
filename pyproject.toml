@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nine-lives-game"
+version = "1.1.0"
+description = "《九命一系：鸣人重生录》文字 RPG"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.gui-scripts]
+nine-lives-game = "main:main"
+
+[project.scripts]
+nine-lives-cli = "main:cli_main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.15"]
+
+[tool.setuptools]
+py-modules = ["main", "gui"]
+
+[tool.setuptools.packages.find]
+include = ["systems*", "scenes*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+exclude = ["saves", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "C90"]
+ignore = ["E501"]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 35
+
+[tool.ruff.lint.per-file-ignores]
+"test_playthrough.py" = ["E402"]
+"test_gui_smoke.py" = ["E402"]
