@@ -1,0 +1,140 @@
+{
+  "naruto_home": {
+    "id": "naruto_home",
+    "name": "鸣人家",
+    "description": "狭小却熟悉的公寓。墙角堆着过期牛奶，桌上放着睡帽。这里是一切重新开始的地方。",
+    "exits": ["ninja_academy", "ichiraku", "hokage_office", "training_ground_7", "konoha_forest", "hokage_rock", "konoha_hospital", "uchiha_ruins", "konoha_gate", "tougen_gate"],
+    "can_rest": true,
+    "random_battle": false,
+    "can_train": false
+  },
+  "ninja_academy": {
+    "id": "ninja_academy",
+    "name": "忍者学校",
+    "description": "熟悉的教室，黑板上还留着粉笔字。伊鲁卡老师的声音仿佛还在耳边回响。",
+    "exits": ["naruto_home", "ichiraku", "hokage_office", "training_ground_7"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "hokage_office": {
+    "id": "hokage_office",
+    "name": "火影办公室",
+    "description": "火影坐在文山会海之后，窗外正对着火影岩。木叶的心脏在这里跳动。",
+    "exits": ["naruto_home", "ninja_academy", "hokage_rock"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "ichiraku": {
+    "id": "ichiraku",
+    "name": "一乐拉面",
+    "description": "热气腾腾的拉面香味扑面而来。手打大叔和绫正在忙碌。这里永远是鸣人的第二个家。",
+    "exits": ["naruto_home", "ninja_academy", "training_ground_7"],
+    "can_rest": true,
+    "random_battle": false,
+    "can_train": false
+  },
+  "training_ground_7": {
+    "id": "training_ground_7",
+    "name": "第七训练场",
+    "description": "三根木桩静静立在河边。这里是第七班第一次接受卡卡西考验的地方。",
+    "exits": ["naruto_home", "ninja_academy", "ichiraku", "konoha_forest"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": true
+  },
+  "konoha_hospital": {
+    "id": "konoha_hospital",
+    "name": "木叶医院",
+    "description": "白色的走廊里飘着消毒水的味道。鸣人想起了很多在这里发生过、以及即将发生的事。",
+    "exits": ["naruto_home", "hokage_rock"],
+    "can_rest": true,
+    "random_battle": false,
+    "can_train": false
+  },
+  "hokage_rock": {
+    "id": "hokage_rock",
+    "name": "火影岩",
+    "description": "四位火影的面孔俯瞰着整个村子。风从山顶吹过，鸣人望着四代目的脸，久久不语。",
+    "exits": ["naruto_home", "hokage_office", "konoha_hospital"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "uchiha_ruins": {
+    "id": "uchiha_ruins",
+    "name": "宇智波族地遗址",
+    "description": "空荡荡的街区寂静无声。团扇家徽在斑驳的墙上褪色。佐助一个人住在这片死寂之中。",
+    "exits": ["naruto_home", "konoha_forest"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "konoha_forest": {
+    "id": "konoha_forest",
+    "name": "木叶森林",
+    "description": "高大的树木遮天蔽日。这里偶尔有野兽和不速之客出没，也是磨炼身手的好地方。",
+    "exits": ["naruto_home", "training_ground_7", "uchiha_ruins", "konoha_gate"],
+    "can_rest": false,
+    "random_battle": true,
+    "battle_pool": ["forest_wolf", "forest_wolf", "rogue_genin"],
+    "can_train": true
+  },
+  "konoha_gate": {
+    "id": "konoha_gate",
+    "name": "木叶大门",
+    "description": "巨大的绿色木门敞开着，两位门卫照例在值班亭里泡茶闲聊。门外，是广阔的忍界。",
+    "exits": ["naruto_home", "konoha_forest", "forest_of_death", "suna_village", "myoboku", "war_front"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "forest_of_death": {
+    "id": "forest_of_death",
+    "name": "死亡森林 (第44演习场)",
+    "description": "铁丝网内，古树参天蔽日，巨兽的低吼在雾气深处回荡。中忍考试的旧战场，如今是磨砺实力的险地。",
+    "exits": ["konoha_gate"],
+    "can_rest": false,
+    "random_battle": true,
+    "battle_pool": ["giant_snake", "rain_genin", "oto_genin"],
+    "can_train": true
+  },
+  "tougen_gate": {
+    "id": "tougen_gate",
+    "name": "桃源入口",
+    "description": "心底那道温暖的门。只要闭上眼，就能感觉到花海与溪流的气息。",
+    "exits": ["naruto_home"],
+    "can_rest": false,
+    "random_battle": false,
+    "can_train": false
+  },
+  "suna_village": {
+    "id": "suna_village",
+    "name": "砂隐村",
+    "description": "赭黄色的岩壁环抱着风之国的心脏。风影办公楼前，卫兵们向那位橙色的英雄致意。",
+    "exits": ["konoha_gate"],
+    "can_rest": true,
+    "random_battle": false,
+    "can_train": false
+  },
+  "myoboku": {
+    "id": "myoboku",
+    "name": "妙木山",
+    "description": "巨大的蘑菇与藤蔓遮蔽天空，仙人蛤蟆们悠然往来。空气里的自然能量浓得几乎能拧出水来。",
+    "exits": ["konoha_gate"],
+    "can_rest": true,
+    "random_battle": false,
+    "can_train": true
+  },
+  "war_front": {
+    "id": "war_front",
+    "name": "忍界联军前线",
+    "description": "五大国的旗帜在焦土上并排飘扬。战争结束了，但残余的白绝仍会从地缝里钻出来。",
+    "exits": ["konoha_gate"],
+    "can_rest": false,
+    "random_battle": true,
+    "battle_pool": ["white_zetsu", "white_zetsu", "edo_jonin"],
+    "can_train": true
+  }
+}

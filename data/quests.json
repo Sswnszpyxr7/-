@@ -1,0 +1,241 @@
+{
+  "team7_restart": {
+    "id": "team7_restart",
+    "name": "重新开始的第七班",
+    "type": "main",
+    "rank": "D",
+    "requirements": [],
+    "objectives": [
+      "完成分班剧情",
+      "与佐助对话",
+      "与小樱对话",
+      "前往第七训练场"
+    ],
+    "rewards": {"exp": 50, "team7_trust": 5, "fate_points": 1},
+    "completed": false
+  },
+  "bell_test": {
+    "id": "bell_test",
+    "name": "铃铛测试",
+    "type": "main",
+    "rank": "C",
+    "requirements": ["team7_restart"],
+    "objectives": [
+      "前往第七训练场",
+      "与卡卡西战斗",
+      "触发团队合作"
+    ],
+    "rewards": {"exp": 120, "chakra_control": 1, "team7_trust": 15},
+    "completed": false
+  },
+  "red_hair_in_seal": {
+    "id": "red_hair_in_seal",
+    "name": "封印深处的红发",
+    "type": "special",
+    "rank": "特殊",
+    "requirements": ["bell_test"],
+    "objectives": [
+      "第一次进入桃源",
+      "与玖辛奈残魂对话",
+      "稳定九尾封印"
+    ],
+    "rewards": {"kushina_contract": 20, "seal_art_exp": 100, "tougen_house": true},
+    "completed": false
+  },
+  "find_cat_tora": {
+    "id": "find_cat_tora",
+    "name": "寻找逃跑的宠物猫",
+    "type": "daily",
+    "rank": "D",
+    "requirements": ["bell_test"],
+    "objectives": ["在木叶森林找到大名夫人的猫"],
+    "rewards": {"exp": 30, "fate_points": 1},
+    "completed": false
+  },
+  "wave_mission": {
+    "id": "wave_mission",
+    "name": "波之国的大桥",
+    "type": "main",
+    "rank": "C→A",
+    "requirements": ["red_hair_in_seal"],
+    "objectives": [
+      "在火影办公室接取护送任务",
+      "护送达兹纳回到波之国",
+      "在大桥上迎接命运的交汇",
+      "尝试改写白与再不斩的结局"
+    ],
+    "rewards": {"exp": 200, "fate_points": 2, "team7_trust": 10},
+    "completed": false
+  },
+  "mist_remnant": {
+    "id": "mist_remnant",
+    "name": "海雾中的残光",
+    "type": "special",
+    "rank": "特殊",
+    "requirements": ["wave_mission"],
+    "objectives": ["循着九命印记的共鸣，找到雾中那缕温柔的残念"],
+    "rewards": {"fate_points": 1},
+    "completed": false
+  },
+  "rin_contract": {
+    "id": "rin_contract",
+    "name": "药草田的约定",
+    "type": "special",
+    "rank": "特殊",
+    "requirements": ["mist_remnant"],
+    "objectives": ["在桃源查看药草田的微光", "唤醒沉睡的残魂", "缔结第二契约"],
+    "rewards": {"exp": 100, "fate_points": 2},
+    "completed": false
+  },
+  "herb_gathering": {
+    "id": "herb_gathering",
+    "name": "医院的药草采集",
+    "type": "daily",
+    "rank": "D",
+    "requirements": ["wave_mission"],
+    "objectives": ["在木叶森林或死亡森林采集 3 株药草", "交给医院的护士长"],
+    "rewards": {"exp": 60, "fate_points": 1, "item_回复丹": 2},
+    "completed": false
+  },
+  "chunin_exam": {
+    "id": "chunin_exam",
+    "name": "中忍考试",
+    "type": "main",
+    "rank": "B",
+    "requirements": ["wave_mission"],
+    "objectives": [
+      "通过笔试",
+      "在死亡森林活下来",
+      "面对大蛇丸，守护佐助",
+      "赢下预选与决赛"
+    ],
+    "rewards": {"exp": 250, "fate_points": 2},
+    "completed": false
+  },
+  "konoha_crush": {
+    "id": "konoha_crush",
+    "name": "木叶崩溃计划",
+    "type": "main",
+    "rank": "A",
+    "requirements": ["chunin_exam"],
+    "objectives": [
+      "识破羽毛幻术",
+      "阻止暴走的我爱罗",
+      "在天台结界处，直面三代的命运"
+    ],
+    "rewards": {"exp": 300, "fate_points": 3},
+    "completed": false
+  },
+  "tsunade_search": {
+    "id": "tsunade_search",
+    "name": "寻找纲手",
+    "type": "main",
+    "rank": "A",
+    "requirements": ["konoha_crush"],
+    "objectives": [
+      "与自来也一同出发",
+      "在旅馆直面晓的黑袍",
+      "学会真正的螺旋丸",
+      "解开纲手的心结，带她回村"
+    ],
+    "rewards": {"exp": 300, "fate_points": 2},
+    "completed": false
+  },
+  "valley_of_the_end": {
+    "id": "valley_of_the_end",
+    "name": "终结谷",
+    "type": "main",
+    "rank": "S",
+    "requirements": ["tsunade_search"],
+    "objectives": [
+      "察觉音忍四人众的到来",
+      "在命运的岔路口，接住那个坠向黑暗的身影"
+    ],
+    "rewards": {"exp": 400, "fate_points": 3},
+    "completed": false
+  },
+  "timeskip_training": {
+    "id": "timeskip_training",
+    "name": "三年之约",
+    "type": "main",
+    "rank": "特殊",
+    "requirements": ["valley_of_the_end"],
+    "objectives": [
+      "与自来也踏上三年修行之旅",
+      "以更强的自己，回到木叶"
+    ],
+    "rewards": {"exp": 400, "fate_points": 3},
+    "completed": false
+  },
+  "kazekage_rescue": {
+    "id": "kazekage_rescue",
+    "name": "风影夺还",
+    "type": "main",
+    "rank": "S",
+    "requirements": ["timeskip_training"],
+    "objectives": [
+      "驰援砂隐村",
+      "追上带走我爱罗的赤云",
+      "击败晓的二人组",
+      "在生死的天平上，接住两条命"
+    ],
+    "rewards": {"exp": 450, "fate_points": 3},
+    "completed": false
+  },
+  "akatsuki_shadow": {
+    "id": "akatsuki_shadow",
+    "name": "晓之阴影",
+    "type": "main",
+    "rank": "S",
+    "requirements": ["kazekage_rescue"],
+    "objectives": [
+      "驰援遭遇不死二人组的十班",
+      "斩断死神的镰刀",
+      "在雨落之前，为师父的师父系上命线"
+    ],
+    "rewards": {"exp": 450, "fate_points": 3},
+    "completed": false
+  },
+  "sage_training": {
+    "id": "sage_training",
+    "name": "妙木山修行",
+    "type": "special",
+    "rank": "特殊",
+    "requirements": ["akatsuki_shadow"],
+    "objectives": [
+      "前往妙木山",
+      "在蛤蟆仙人座下习得仙人模式"
+    ],
+    "rewards": {"exp": 300, "fate_points": 2},
+    "completed": false
+  },
+  "pain_assault": {
+    "id": "pain_assault",
+    "name": "佩恩袭村",
+    "type": "main",
+    "rank": "S",
+    "requirements": ["sage_training"],
+    "objectives": [
+      "在天降之神抵达前，做好抉择",
+      "击败佩恩·天道",
+      "找到本体，把「答案」说给轮回之瞳听"
+    ],
+    "rewards": {"exp": 550, "fate_points": 4},
+    "completed": false
+  },
+  "fourth_war": {
+    "id": "fourth_war",
+    "name": "第四次忍界大战",
+    "type": "main",
+    "rank": "S+",
+    "requirements": ["pain_assault"],
+    "objectives": [
+      "出席五影会谈",
+      "与九喇嘛真正和解",
+      "在战场上唤回迷失的宇智波",
+      "以九命同归，终结这场轮回"
+    ],
+    "rewards": {"exp": 800, "fate_points": 5},
+    "completed": false
+  }
+}

@@ -1,0 +1,1002 @@
+{
+  "player": {
+    "id": "naruto",
+    "name": "漩涡鸣人",
+    "level": 8,
+    "exp": 468,
+    "hp": 265,
+    "max_hp": 265,
+    "chakra": 284,
+    "max_chakra": 284,
+    "attack": 64,
+    "defense": 30,
+    "speed": 28,
+    "spirit": 53,
+    "sense": 15,
+    "chakra_control": 24,
+    "seal_art": 33,
+    "fate_power": 1,
+    "elements": [
+      "wind",
+      "yang",
+      "tailed_beast"
+    ],
+    "skills": [
+      "basic_taijutsu",
+      "shadow_clone",
+      "transform",
+      "sexy_jutsu",
+      "multi_shadow_clone",
+      "simple_seal_array",
+      "nine_tails_cloak"
+    ],
+    "status": [
+      {
+        "id": "defense_up",
+        "turns": 1
+      },
+      {
+        "id": "paralyze",
+        "turns": 1
+      }
+    ]
+  },
+  "contracts": {
+    "kushina": {
+      "id": "kushina",
+      "name": "漩涡玖辛奈",
+      "title": "赤色旋涡",
+      "contract_fixed": true,
+      "contract_level": 4,
+      "affection": 100,
+      "trust": 100,
+      "safety": 100,
+      "fate_resonance": 100,
+      "support_skill": "red_hair_protection",
+      "support_skill_name": "赤发守护",
+      "support_desc": "为鸣人提供护盾，并提升封印术威力",
+      "unlocked": true,
+      "location": "tougen",
+      "note": "第一位契约者。残魂栖于桃源红枫林,正在缓慢恢复。"
+    },
+    "rin": {
+      "id": "rin",
+      "name": "野原琳",
+      "title": "温柔的医疗忍者",
+      "contract_fixed": true,
+      "contract_level": 3,
+      "affection": 100,
+      "trust": 100,
+      "safety": 100,
+      "fate_resonance": 100,
+      "support_skill": "gentle_healing",
+      "support_skill_name": "温柔医疗",
+      "support_desc": "回复生命，解除中毒与流血",
+      "unlocked": true,
+      "location": "tougen",
+      "note": "第二位契约者。残魂栖于桃源药草田,笑容一如照片上温柔。"
+    },
+    "tsunade": {
+      "id": "tsunade",
+      "name": "纲手",
+      "title": "传说中的医忍",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "hyakugo_guard",
+      "support_skill_name": "百豪之守",
+      "support_desc": "大幅回复生命并解除异常，本场战斗一次抵御致命伤",
+      "unlocked": false,
+      "location": "unknown",
+      "note": "失去了一切的传说三忍。要触及她的心，需要先治愈她对生命的绝望。"
+    },
+    "sakura": {
+      "id": "sakura",
+      "name": "春野樱",
+      "title": "怪力回春的医忍",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "sakura_bloom",
+      "support_skill_name": "怪力回春",
+      "support_desc": "医疗掌恢复生命、解除中毒与流血，再以怪力重击敌人",
+      "unlocked": false,
+      "location": "konoha",
+      "note": "第七班的同伴。她的手既能治愈伤口,也能砸碎命运——只等她自己相信这一点。"
+    },
+    "shizune": {
+      "id": "shizune",
+      "name": "静音",
+      "title": "温柔的医毒师",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "medic_poison",
+      "support_skill_name": "医毒净化",
+      "support_desc": "解除大部分异常并恢复生命，再以淬毒针削弱敌人",
+      "unlocked": false,
+      "location": "konoha",
+      "note": "纲手身边最可靠的影子。她照顾了师父二十年，也早就把鸣人当成了自家的弟弟。"
+    },
+    "hinata": {
+      "id": "hinata",
+      "name": "日向雏田",
+      "title": "月光下的守望者",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "gentle_gaze",
+      "support_skill_name": "柔拳心眼",
+      "support_desc": "白眼看破一切:解除精神干扰、提升闪避，并点封敌人经络",
+      "unlocked": false,
+      "location": "konoha",
+      "note": "从忍者学校起就一直望着那个背影的少女。这一世,她想走到那个背影的身边。"
+    },
+    "konan": {
+      "id": "konan",
+      "name": "小南",
+      "title": "纸之天使",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "paper_wings",
+      "support_skill_name": "纸翼庇护",
+      "support_desc": "千纸折翼为盾，防御与闪避提升并恢复生命",
+      "unlocked": false,
+      "location": "rain",
+      "note": "雨隐的蓝发天使。她把两位挚友的梦想折进纸里，等一个值得托付的人。"
+    },
+    "mei": {
+      "id": "mei",
+      "name": "照美冥",
+      "title": "雾隐的五代水影",
+      "contract_fixed": false,
+      "contract_level": 0,
+      "affection": 0,
+      "trust": 0,
+      "safety": 0,
+      "fate_resonance": 0,
+      "support_skill": "lava_cover",
+      "support_skill_name": "熔遁掩护",
+      "support_desc": "熔浆自天而降，灼烧敌人并掩护鸣人",
+      "unlocked": false,
+      "location": "mist",
+      "note": "终结了血雾之村的水影大人。她比谁都清楚,守护温柔需要何等的强硬。"
+    },
+    "gaia": {
+      "id": "gaia",
+      "name": "？？？",
+      "title": "第九条命线",
+      "contract_fixed": true,
+      "contract_level": 0,
+      "affection": 100,
+      "trust": 100,
+      "safety": 100,
+      "fate_resonance": 100,
+      "support_skill": "gaia_breath",
+      "support_skill_name": "大地之息",
+      "support_desc": "大地的呼吸与你同频，生命与查克拉大幅恢复",
+      "unlocked": false,
+      "location": "everywhere",
+      "note": "契约之树最深处的命线。它一直在，只是还没到显形的时候。"
+    }
+  },
+  "quests": {
+    "team7_restart": {
+      "id": "team7_restart",
+      "name": "重新开始的第七班",
+      "type": "main",
+      "rank": "D",
+      "requirements": [],
+      "objectives": [
+        "完成分班剧情",
+        "与佐助对话",
+        "与小樱对话",
+        "前往第七训练场"
+      ],
+      "rewards": {
+        "exp": 50,
+        "team7_trust": 5,
+        "fate_points": 1
+      },
+      "completed": true
+    },
+    "bell_test": {
+      "id": "bell_test",
+      "name": "铃铛测试",
+      "type": "main",
+      "rank": "C",
+      "requirements": [
+        "team7_restart"
+      ],
+      "objectives": [
+        "前往第七训练场",
+        "与卡卡西战斗",
+        "触发团队合作"
+      ],
+      "rewards": {
+        "exp": 120,
+        "chakra_control": 1,
+        "team7_trust": 15
+      },
+      "completed": true
+    },
+    "red_hair_in_seal": {
+      "id": "red_hair_in_seal",
+      "name": "封印深处的红发",
+      "type": "special",
+      "rank": "特殊",
+      "requirements": [
+        "bell_test"
+      ],
+      "objectives": [
+        "第一次进入桃源",
+        "与玖辛奈残魂对话",
+        "稳定九尾封印"
+      ],
+      "rewards": {
+        "kushina_contract": 20,
+        "seal_art_exp": 100,
+        "tougen_house": true
+      },
+      "completed": true
+    },
+    "find_cat_tora": {
+      "id": "find_cat_tora",
+      "name": "寻找逃跑的宠物猫",
+      "type": "daily",
+      "rank": "D",
+      "requirements": [
+        "bell_test"
+      ],
+      "objectives": [
+        "在木叶森林找到大名夫人的猫"
+      ],
+      "rewards": {
+        "exp": 30,
+        "fate_points": 1
+      },
+      "completed": true
+    },
+    "wave_mission": {
+      "id": "wave_mission",
+      "name": "波之国的大桥",
+      "type": "main",
+      "rank": "C→A",
+      "requirements": [
+        "red_hair_in_seal"
+      ],
+      "objectives": [
+        "在火影办公室接取护送任务",
+        "护送达兹纳回到波之国",
+        "在大桥上迎接命运的交汇",
+        "尝试改写白与再不斩的结局"
+      ],
+      "rewards": {
+        "exp": 200,
+        "fate_points": 2,
+        "team7_trust": 10
+      },
+      "completed": true
+    },
+    "mist_remnant": {
+      "id": "mist_remnant",
+      "name": "海雾中的残光",
+      "type": "special",
+      "rank": "特殊",
+      "requirements": [
+        "wave_mission"
+      ],
+      "objectives": [
+        "循着九命印记的共鸣，找到雾中那缕温柔的残念"
+      ],
+      "rewards": {
+        "fate_points": 1
+      },
+      "completed": true
+    },
+    "rin_contract": {
+      "id": "rin_contract",
+      "name": "药草田的约定",
+      "type": "special",
+      "rank": "特殊",
+      "requirements": [
+        "mist_remnant"
+      ],
+      "objectives": [
+        "在桃源查看药草田的微光",
+        "唤醒沉睡的残魂",
+        "缔结第二契约"
+      ],
+      "rewards": {
+        "exp": 100,
+        "fate_points": 2
+      },
+      "completed": true
+    },
+    "herb_gathering": {
+      "id": "herb_gathering",
+      "name": "医院的药草采集",
+      "type": "daily",
+      "rank": "D",
+      "requirements": [
+        "wave_mission"
+      ],
+      "objectives": [
+        "在木叶森林或死亡森林采集 3 株药草",
+        "交给医院的护士长"
+      ],
+      "rewards": {
+        "exp": 60,
+        "fate_points": 1,
+        "item_回复丹": 2
+      },
+      "completed": false
+    },
+    "chunin_exam": {
+      "id": "chunin_exam",
+      "name": "中忍考试",
+      "type": "main",
+      "rank": "B",
+      "requirements": [
+        "wave_mission"
+      ],
+      "objectives": [
+        "通过笔试",
+        "在死亡森林活下来",
+        "面对大蛇丸，守护佐助",
+        "赢下预选与决赛"
+      ],
+      "rewards": {
+        "exp": 250,
+        "fate_points": 2
+      },
+      "completed": true
+    },
+    "konoha_crush": {
+      "id": "konoha_crush",
+      "name": "木叶崩溃计划",
+      "type": "main",
+      "rank": "A",
+      "requirements": [
+        "chunin_exam"
+      ],
+      "objectives": [
+        "识破羽毛幻术",
+        "阻止暴走的我爱罗",
+        "在天台结界处，直面三代的命运"
+      ],
+      "rewards": {
+        "exp": 300,
+        "fate_points": 3
+      },
+      "completed": true
+    },
+    "tsunade_search": {
+      "id": "tsunade_search",
+      "name": "寻找纲手",
+      "type": "main",
+      "rank": "A",
+      "requirements": [
+        "konoha_crush"
+      ],
+      "objectives": [
+        "与自来也一同出发",
+        "在旅馆直面晓的黑袍",
+        "学会真正的螺旋丸",
+        "解开纲手的心结，带她回村"
+      ],
+      "rewards": {
+        "exp": 300,
+        "fate_points": 2
+      },
+      "completed": false
+    },
+    "valley_of_the_end": {
+      "id": "valley_of_the_end",
+      "name": "终结谷",
+      "type": "main",
+      "rank": "S",
+      "requirements": [
+        "tsunade_search"
+      ],
+      "objectives": [
+        "察觉音忍四人众的到来",
+        "在命运的岔路口，接住那个坠向黑暗的身影"
+      ],
+      "rewards": {
+        "exp": 400,
+        "fate_points": 3
+      },
+      "completed": false
+    },
+    "timeskip_training": {
+      "id": "timeskip_training",
+      "name": "三年之约",
+      "type": "main",
+      "rank": "特殊",
+      "requirements": [
+        "valley_of_the_end"
+      ],
+      "objectives": [
+        "与自来也踏上三年修行之旅",
+        "以更强的自己，回到木叶"
+      ],
+      "rewards": {
+        "exp": 400,
+        "fate_points": 3
+      },
+      "completed": false
+    },
+    "kazekage_rescue": {
+      "id": "kazekage_rescue",
+      "name": "风影夺还",
+      "type": "main",
+      "rank": "S",
+      "requirements": [
+        "timeskip_training"
+      ],
+      "objectives": [
+        "驰援砂隐村",
+        "追上带走我爱罗的赤云",
+        "击败晓的二人组",
+        "在生死的天平上，接住两条命"
+      ],
+      "rewards": {
+        "exp": 450,
+        "fate_points": 3
+      },
+      "completed": false
+    },
+    "akatsuki_shadow": {
+      "id": "akatsuki_shadow",
+      "name": "晓之阴影",
+      "type": "main",
+      "rank": "S",
+      "requirements": [
+        "kazekage_rescue"
+      ],
+      "objectives": [
+        "驰援遭遇不死二人组的十班",
+        "斩断死神的镰刀",
+        "在雨落之前，为师父的师父系上命线"
+      ],
+      "rewards": {
+        "exp": 450,
+        "fate_points": 3
+      },
+      "completed": false
+    },
+    "sage_training": {
+      "id": "sage_training",
+      "name": "妙木山修行",
+      "type": "special",
+      "rank": "特殊",
+      "requirements": [
+        "akatsuki_shadow"
+      ],
+      "objectives": [
+        "前往妙木山",
+        "在蛤蟆仙人座下习得仙人模式"
+      ],
+      "rewards": {
+        "exp": 300,
+        "fate_points": 2
+      },
+      "completed": false
+    },
+    "pain_assault": {
+      "id": "pain_assault",
+      "name": "佩恩袭村",
+      "type": "main",
+      "rank": "S",
+      "requirements": [
+        "sage_training"
+      ],
+      "objectives": [
+        "在天降之神抵达前，做好抉择",
+        "击败佩恩·天道",
+        "找到本体，把「答案」说给轮回之瞳听"
+      ],
+      "rewards": {
+        "exp": 550,
+        "fate_points": 4
+      },
+      "completed": false
+    },
+    "fourth_war": {
+      "id": "fourth_war",
+      "name": "第四次忍界大战",
+      "type": "main",
+      "rank": "S+",
+      "requirements": [
+        "pain_assault"
+      ],
+      "objectives": [
+        "出席五影会谈",
+        "与九喇嘛真正和解",
+        "在战场上唤回迷失的宇智波",
+        "以九命同归，终结这场轮回"
+      ],
+      "rewards": {
+        "exp": 800,
+        "fate_points": 5
+      },
+      "completed": false
+    }
+  },
+  "location": "naruto_home",
+  "fate_points": 24,
+  "backlash": 6,
+  "exposure": 66,
+  "kakashi_suspicion": 70,
+  "team7_trust": 117,
+  "village_trust": 14,
+  "belonging": 46,
+  "kyubi_flux": 0,
+  "inventory": {
+    "军粮丸": 5,
+    "回复丹": 0,
+    "封印墨": 1,
+    "药草": 3,
+    "木材": 3,
+    "优质布": 1,
+    "兽骨": 7,
+    "查克拉丸": 2
+  },
+  "ryo": 3088,
+  "chapter": 5,
+  "world_day": 31,
+  "time_index": 3,
+  "actions_taken": 123,
+  "daily_activity": {
+    "tougen_supply": {
+      "day": 31,
+      "count": 1
+    },
+    "heart_talk:kushina": {
+      "day": 31,
+      "count": 1
+    },
+    "tougen_training": {
+      "day": 29,
+      "count": 1
+    },
+    "heart_talk:rin": {
+      "day": 31,
+      "count": 1
+    },
+    "wander_cache:konoha_forest": {
+      "day": 28,
+      "count": 1
+    }
+  },
+  "tougen_training_sessions": 2,
+  "equipped_skills": [
+    "basic_taijutsu",
+    "shadow_clone",
+    "sexy_jutsu",
+    "multi_shadow_clone",
+    "simple_seal_array",
+    "nine_tails_cloak"
+  ],
+  "skill_upgrades": {
+    "simple_seal_array": "drain",
+    "shadow_clone": "guardian",
+    "basic_taijutsu": "combo"
+  },
+  "owned_equipment": [
+    "kunai_kit",
+    "genin_vest",
+    "bond_token",
+    "seal_charm",
+    "chakra_blade"
+  ],
+  "equipped_gear": {
+    "weapon": "kunai_kit",
+    "armor": "genin_vest",
+    "accessory": "bond_token"
+  },
+  "equipment_quality": {
+    "kunai_kit": "common",
+    "genin_vest": "common",
+    "bond_token": "common",
+    "seal_charm": "common",
+    "chakra_blade": "common"
+  },
+  "equipment_enhancements": {
+    "kunai_kit": 0,
+    "genin_vest": 0,
+    "bond_token": 0,
+    "seal_charm": 0,
+    "chakra_blade": 0
+  },
+  "equipment_affixes": {},
+  "wanted_records": {},
+  "new_game_plus": 0,
+  "challenge_modifiers": [],
+  "selected_party": [
+    "sakura",
+    "kakashi"
+  ],
+  "teammate_progress": {
+    "sasuke": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    },
+    "sakura": {
+      "level": 5,
+      "exp": 143,
+      "bond": 18,
+      "route": "strength",
+      "milestones": [
+        10
+      ]
+    },
+    "kakashi": {
+      "level": 5,
+      "exp": 143,
+      "bond": 18,
+      "route": "tactician",
+      "milestones": [
+        10
+      ]
+    },
+    "hinata": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    },
+    "gaara": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    },
+    "tsunade": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    },
+    "konan": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    },
+    "obito": {
+      "level": 1,
+      "exp": 0,
+      "bond": 0,
+      "route": "",
+      "milestones": []
+    }
+  },
+  "combo_mastery": {},
+  "faction_reputation": {
+    "konoha": 10,
+    "suna": 0,
+    "alliance": 0
+  },
+  "dynamic_quests": {
+    "dq_31_78": {
+      "key": "konoha_venom",
+      "faction": "konoha",
+      "name": "毒物样本",
+      "event": "gather",
+      "target": "毒囊",
+      "required": 2,
+      "objective": "为医院收集毒囊 2 份",
+      "chapter": 3,
+      "rep": 10,
+      "exp": 70,
+      "id": "dq_31_78",
+      "progress": 0,
+      "status": "offered",
+      "day": 31
+    },
+    "dq_31_79": {
+      "key": "konoha_patrol",
+      "faction": "konoha",
+      "name": "村外巡逻",
+      "event": "patrol",
+      "target": "konoha_forest",
+      "required": 2,
+      "objective": "在木叶森林完成 2 次巡查",
+      "chapter": 1,
+      "rep": 8,
+      "exp": 45,
+      "id": "dq_31_79",
+      "progress": 0,
+      "status": "offered",
+      "day": 31
+    },
+    "dq_31_80": {
+      "key": "konoha_herbs",
+      "faction": "konoha",
+      "name": "医疗班药材征集",
+      "event": "gather",
+      "target": "药草",
+      "required": 3,
+      "objective": "采集药草 3 株",
+      "chapter": 2,
+      "rep": 9,
+      "exp": 55,
+      "id": "dq_31_80",
+      "progress": 0,
+      "status": "offered",
+      "day": 31
+    }
+  },
+  "dynamic_quest_serial": 80,
+  "last_dynamic_refresh_day": 31,
+  "faction_story": {},
+  "faction_rank_rewards": [],
+  "random_event_history": {
+    "chain_home_letters_1": 1,
+    "chain_home_letters_2": 1,
+    "chain_office_missing_file_1": 1,
+    "office_errand": 3,
+    "chain_office_missing_file_2": 1,
+    "chain_office_missing_file_3": 1,
+    "office_intel": 2,
+    "chain_forest_poachers_1": 1,
+    "forest_herbs": 2,
+    "chain_forest_poachers_2": 1,
+    "chain_forest_poachers_3": 1,
+    "forest_tracks": 2,
+    "uchiha_cat": 1,
+    "uchiha_shuriken": 1,
+    "chain_home_letters_3": 1,
+    "home_milk": 2,
+    "home_dream": 1,
+    "chain_training_bell_1": 1,
+    "training_marks": 3,
+    "chain_training_bell_2": 1,
+    "chain_training_bell_3": 1,
+    "training_team": 1,
+    "ichiraku_extra": 3,
+    "ichiraku_rumor": 2,
+    "chain_ichiraku_veteran_1": 1,
+    "chain_ichiraku_veteran_2": 1,
+    "chain_ichiraku_veteran_3": 1,
+    "chain_academy_dropout_1": 1,
+    "academy_notes": 2,
+    "chain_academy_dropout_2": 1,
+    "chain_academy_dropout_3": 1,
+    "academy_cleanup": 1
+  },
+  "random_event_last_seen": {
+    "chain_home_letters_1": 1,
+    "chain_home_letters_2": 2,
+    "chain_office_missing_file_1": 9,
+    "office_errand": 63,
+    "chain_office_missing_file_2": 11,
+    "chain_office_missing_file_3": 12,
+    "office_intel": 118,
+    "chain_forest_poachers_1": 33,
+    "forest_herbs": 38,
+    "chain_forest_poachers_2": 35,
+    "chain_forest_poachers_3": 36,
+    "forest_tracks": 107,
+    "uchiha_cat": 48,
+    "uchiha_shuriken": 49,
+    "chain_home_letters_3": 52,
+    "home_milk": 57,
+    "home_dream": 55,
+    "chain_training_bell_1": 76,
+    "training_marks": 106,
+    "chain_training_bell_2": 78,
+    "chain_training_bell_3": 79,
+    "training_team": 80,
+    "ichiraku_extra": 93,
+    "ichiraku_rumor": 91,
+    "chain_ichiraku_veteran_1": 87,
+    "chain_ichiraku_veteran_2": 88,
+    "chain_ichiraku_veteran_3": 90,
+    "chain_academy_dropout_1": 96,
+    "academy_notes": 101,
+    "chain_academy_dropout_2": 98,
+    "chain_academy_dropout_3": 99,
+    "academy_cleanup": 102
+  },
+  "world_event_chains": {
+    "home_letters": 3,
+    "office_missing_file": 3,
+    "forest_poachers": 3,
+    "training_bell": 3,
+    "ichiraku_veteran": 3,
+    "academy_dropout": 3
+  },
+  "contract_trials": [
+    "kushina_3",
+    "rin_3"
+  ],
+  "discovered_characters": [
+    "naruto",
+    "sasuke",
+    "sakura",
+    "kakashi",
+    "kushina",
+    "rin",
+    "gaara"
+  ],
+  "discovered_enemies": [
+    "kakashi_bell_test",
+    "forest_wolf",
+    "rogue_genin",
+    "zabuza_first",
+    "haku_bridge",
+    "training_dummy",
+    "orochimaru_forest",
+    "kiba_prelim",
+    "neji_final",
+    "gaara_berserk"
+  ],
+  "discovered_skills": [
+    "basic_taijutsu",
+    "shadow_clone",
+    "transform",
+    "sexy_jutsu",
+    "multi_shadow_clone",
+    "simple_seal_array",
+    "nine_tails_cloak"
+  ],
+  "achievements": [
+    "first_action",
+    "first_contract",
+    "event_hunter",
+    "two_companions",
+    "world_walker",
+    "first_ending",
+    "full_loadout"
+  ],
+  "endings_seen": [
+    "wave_perfect"
+  ],
+  "relations": {
+    "sasuke": {
+      "trust": 32,
+      "revenge": 70,
+      "curse": 0,
+      "team_bond": 35,
+      "isolation": 75
+    },
+    "sakura": {
+      "confidence": 41,
+      "medical": 23,
+      "trust": 16,
+      "sasuke_obsession": 80,
+      "responsibility": 25
+    }
+  },
+  "tougen_buildings": [
+    "tree_boost",
+    "courtyard",
+    "seal_lab",
+    "herb_field"
+  ],
+  "research_done": [
+    "multi_clone",
+    "seal_array",
+    "cloak"
+  ],
+  "romance": {
+    "sakura": 0,
+    "hinata": 0,
+    "tsunade": 0,
+    "konan": 0,
+    "rin": 0
+  },
+  "flags": {
+    "intro_done": true,
+    "team7_assigned": true,
+    "talked_sasuke": true,
+    "talked_sakura": true,
+    "bell_test_completed": true,
+    "tougen_unlocked": true,
+    "kushina_contacted": true,
+    "cat_found": true,
+    "rasengan_learned": false,
+    "chapter1_end": true,
+    "wave_done": true,
+    "haku_bond": 3,
+    "haku_alive": true,
+    "zabuza_alive": true,
+    "rin_photo_seen": true,
+    "rin_light_found": true,
+    "rin_contacted": true,
+    "rin_kakashi_hint": true,
+    "chunin_done": true,
+    "warned_hokage": true,
+    "curse_avoided": true,
+    "oro_marked_naruto": true,
+    "gaara_bond": 1,
+    "jiraiya_trust": 2,
+    "neji_freed": true,
+    "crush_done": true,
+    "hiruzen_saved": true,
+    "gaara_redeemed": true,
+    "tsunade_done": false,
+    "tsunade_returned": false,
+    "tsunade_bond": 0,
+    "itachi_knows": false,
+    "sasuke_hospitalized": false,
+    "rasengan_official": false,
+    "tsunade_tougen_invited": false,
+    "sasuke_arc_done": false,
+    "sasuke_ending": 0,
+    "spar_done": false,
+    "main_complete": false,
+    "kyubi_calm_done": false,
+    "herb_quest_active": false,
+    "sakura_hospital_c3": true,
+    "sakura_hospital_c5": false,
+    "sasuke_talk_c3": false,
+    "sasuke_talk_c4": false,
+    "sasuke_talk_c5": false,
+    "shippuden_started": false,
+    "kazekage_done": false,
+    "gaara_saved": false,
+    "chiyo_alive": false,
+    "sakura_contracted": false,
+    "akatsuki_done": false,
+    "asuma_saved": false,
+    "hinata_contracted": false,
+    "shizune_contracted": false,
+    "sage_training_done": false,
+    "jiraiya_saved": false,
+    "pain_intel": 0,
+    "pain_done": false,
+    "village_evacuated": false,
+    "hinata_guarded": false,
+    "nagato_redeemed": false,
+    "konan_contracted": false,
+    "war_done": false,
+    "summit_done": false,
+    "mei_contracted": false,
+    "kurama_friend": false,
+    "obito_redeemed": false,
+    "infinite_tsukuyomi_stopped": false,
+    "true_end": false,
+    "rom_sakura_1": false,
+    "rom_sakura_2": false,
+    "rom_hinata_1": false,
+    "rom_hinata_2": false,
+    "rom_tsunade_1": false,
+    "rom_tsunade_2": false,
+    "rom_konan_1": false,
+    "rom_konan_2": false,
+    "rom_rin_1": false,
+    "rom_rin_2": false,
+    "lover": ""
+  },
+  "_meta": {
+    "schema_version": 7,
+    "saved_at": "2026-07-15T06:30:28.151469+00:00"
+  }
+}

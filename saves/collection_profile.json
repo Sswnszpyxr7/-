@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "discovered_characters": [
+    "naruto",
+    "sasuke",
+    "sakura",
+    "kakashi",
+    "kushina",
+    "rin",
+    "gaara"
+  ],
+  "discovered_enemies": [
+    "kakashi_bell_test",
+    "forest_wolf",
+    "rogue_genin",
+    "zabuza_first",
+    "haku_bridge",
+    "training_dummy",
+    "orochimaru_forest",
+    "kiba_prelim",
+    "neji_final",
+    "gaara_berserk"
+  ],
+  "discovered_skills": [
+    "basic_taijutsu",
+    "shadow_clone",
+    "transform",
+    "sexy_jutsu",
+    "multi_shadow_clone",
+    "simple_seal_array",
+    "nine_tails_cloak"
+  ],
+  "achievements": [
+    "first_action",
+    "first_contract",
+    "event_hunter",
+    "two_companions",
+    "world_walker",
+    "first_ending",
+    "full_loadout"
+  ],
+  "endings_seen": [
+    "wave_perfect"
+  ]
+}
